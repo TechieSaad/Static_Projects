@@ -1,0 +1,307 @@
+*{
+    margin: 0 ;padding: 0;
+    font-family:sans-serif;
+}
+
+body{
+    background-color: #cccccc;
+}
+
+
+.page2main{
+    border: none;
+    height: 350vh;
+    width: 75%;
+    margin: auto;
+    background-color: #f8f8f8;
+    box-shadow: 0px 10px 10px #424242;
+}
+
+
+
+
+.page2head{
+    border: solid 1px #76c7c0;
+    height: 20vh;
+    width: 100%;
+    background-color: #76c7c0;
+    display: flex;
+}
+
+.page2logo{
+    height: 20vh;
+    width:25%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login2{
+    /* height: 20vh; */
+    width: 75%;
+    /* background-color: #6D5E63; */
+    display: flex;
+    justify-content: right;
+    
+    
+    
+
+}
+
+.login2 a{
+    text-decoration: none;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-size: 13px;
+    color: #000;
+    /* background-color: #e5e6e6; */
+    width: 13%;
+    height: 8vh;
+}
+
+
+.nav{
+    height: 15vh;
+    width: 100%;
+    background-color: #333333;
+    
+    
+}
+
+.nav ul{
+    display: flex;
+    
+    
+    
+
+}
+
+.nav button{
+    height: 7.5vh;
+    width: 100%;
+    padding: 0px 20px;
+    border: none;
+    background: none;
+}
+
+
+.nav li{
+    list-style: none;
+    
+}
+
+.nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav button:hover{
+    background-color: #cccccc84;
+    transition: background-color 0.3s ease;;
+}
+
+
+.page2body{
+    border: none;
+    height: 285vh;
+    width: 90%;
+    margin: 60px 0px 0px 50px;
+    box-shadow: 1px 1px 5px #424242;
+    
+}
+
+.entry-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    
+    font-size: 32px;
+    padding: 20px 20px;
+    
+}
+
+.date{
+    /* border: solid 1px black; */
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-top: #ccccccb0 1px solid;
+    border-bottom: #ccccccb0 1px solid;
+    
+}
+
+.date-1 img{
+    width: 13px;
+}
+
+.date-1{
+    color: #cccccc;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-left:20px ;
+}
+
+.date-2 img{
+    width: 13px;
+}
+
+.date-2 a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #7597B9;
+    transition: color .25s ease, margin .25s ease;
+}
+
+.date a:hover{
+    color: #cf2e2e;
+}
+
+/* .linkedin img{
+     background: url('./IMAGES/share-linkedin.a99fe1967ba2.svg') no-repeat center;
+    background-size: cover;
+       
+} */
+
+.x{
+    border: none;
+    height: 2vh;
+    width: 7%;
+    background-color: black;
+    border-radius: 30px;
+    
+    
+
+}
+
+.x img{
+    height: 2vh;
+    margin-right: 10px;
+}
+
+.x a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    text-align: right;
+}
+
+.fb{
+    border: none;
+    height: 2vh;
+    width: 13%;
+    background-color: #3B579D;
+}
+
+.fb img{
+    height: 2vh;
+}
+
+.fb a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+
+.socialmedia{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.linkedin{
+    border: none;
+    height: 2vh;
+    width: 7%;
+    background-color: #0079b5;
+}
+
+.linkedin img{
+    height: 2vh;
+}
+
+.linkedin a{
+    text-decoration: none;
+    color: white;
+}
+
+.logomid{
+    display: flex;
+    justify-content: center;
+}
+
+.blogimg{
+    width: 95%;
+    margin-left: 30px;
+}
+
+.page2body p{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.page2body li{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+.upline{
+    border-top: #ccccccb0 1px solid;
+    width: 95%;
+    margin: auto;
+}
+
+.signals{
+    border: none;
+    height: 8vh;
+    width: 90%;
+    margin: 60px 0px 0px 50px;
+    box-shadow: 1px 1px 5px #424242;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.signals a{
+    text-decoration: none;
+    color: #7597B9;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+
+.footlow{
+    border: none;
+    height: 8vh;
+    width: 75% ;
+    margin: auto;
+    background-color: black;
+    box-shadow: 1px 1px 5px #424242;
+    color:#cccccc;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.footlow a{
+    text-decoration: none;
+    color: #7597B9;
+
+   
+}
+
+.footlow p{
+    margin: 0px 20px;
+}
+
+
